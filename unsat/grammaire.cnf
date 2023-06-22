@@ -1,0 +1,19 @@
+c règles de grammaire :
+c      S → A B C  |  A D
+c      D → B D
+c      A → B
+c      B → C
+c      C → a
+c table des propositions
+c   S A B C D a
+c   1 2 3 4 5 6
+p cnf 6 8
+6 0
+1 -2 -3 -4 0
+1 -2 -5 0
+5 -3 -5 0
+2 -3 0
+3 -4 0
+4 -6 0
+c  symbole dont on teste la productivité
+-1 0
